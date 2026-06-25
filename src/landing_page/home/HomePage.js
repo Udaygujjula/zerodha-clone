@@ -10,6 +10,7 @@ import Navbar  from '../Navbar';
 function Homepage() {
     return ( 
         <>
+        <Navbar/>
         <Hero/>
         <Awards/>
         <Stats/>
@@ -17,7 +18,6 @@ function Homepage() {
         <Education/>
         <OpenAccount/>
         <Footer/>
-        <Navbar/>
         </>
      );
 }
