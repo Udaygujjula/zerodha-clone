@@ -4,7 +4,10 @@ export const GeneralContext = createContext({});
 
 export const GeneralContextProvider = ({ children }) => {
   const contextValue = {
-    // Add shared state or functions here as needed
+    openBuyWindow: (uid) => {
+      console.log(`openBuyWindow called for ${uid}`);
+      // TODO: replace this stub with actual buy window logic
+    },
   };
 
   return (
